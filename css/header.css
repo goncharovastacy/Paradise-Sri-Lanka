@@ -1,11 +1,43 @@
-header {
+a:link,
+a:visited {
+  text-decoration: none;
+  color: inherit;
+}
+a:hover {
+  text-decoration: underline;
+}
+.header {
+  position: absolute;
+  width: 100%;
   display: flex;
   justify-content: space-around;
+  padding-top: 80px;
+  color: white;
+}
+.header p {
+  margin: 0;
+  font-size: 30px;
+  color: #e4f3f8;
 }
 .header_menu {
+  padding: 5px 0;
+  margin: 0;
   list-style: none;
 }
 .header_menu li {
   display: inline;
-  padding: 0 5px;
+  padding: 0 20px;
+  font-size: 20px;
+}
+.banner {
+  height: 1028px;
+  text-align: center;
+  background-image: url(../assets/images/banner.png);
+}
+.banner h1 {
+  margin: 0;
+  padding-top: 375px;
+}
+.banner p {
+  color: white;
 }
