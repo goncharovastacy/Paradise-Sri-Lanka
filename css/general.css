@@ -1,63 +1,50 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 /* Typography */
-h1, h2, h3, h4, h5, h6, p {
-  font-family: 'Roboto';
-  font-style: normal;
+h1, h2, h3 {
+  font-family: 'Montserrat';
+}
+
+/* Заголовок баннера*/
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 80px;
+  line-height: 98px;
+  color: #FFFFFF;
 }
 
 /* Заголовки статей, секций*/
-h1 {
+h2 {
   font-weight: 600;
   font-size: 38px;
-  line-height: 45px;
-  color: #373829;
+  line-height: 46px;
+  color: #202020;
 }
 
-/* Заголовки статей (экскурсии)*/
-h2 {
-  font-weight: 800;
-  font-size: 32px;
-  line-height: 38px;
-  color: #373829
-}
-
-/* Заголовки статей, секций*/
+/* Заголовки карточек услуг на главной*/
 h3 {
-  font-weight: 600;
-  font-size: 32px;
-  line-height: 38px;
-  color: #373829;
-}
-
-/* Текст для карточек услуг*/
-h4 {
   font-weight: 400;
   font-size: 20px;
-  line-height: 23px;
+  line-height: 24px;
   color: #FFFFFF;
 }
 
-h5 {
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 21px;
-  color: #FFFFFF;
-}
-
-/* Текст для карточек услуг*/
-h6 {
+/*Текст всех секций (кроме страницы с услугами)*/
+p {
+  font-family: 'Roboto';
   font-weight: 400;
   font-size: 16px;
   line-height: 19px;
-  color: #FFFFFF;
+  color: #202020;
 }
-
+/*Текст секций на странице с услугами*/
 p {
+  font-family: 'Roboto';
   font-weight: 400;
-  font-size: 24px;
-  line-height: 28px;
-  color: #373829;
+  font-size: 20px;
+  line-height: 23px;
+  color: #202020;
 }
 
 
