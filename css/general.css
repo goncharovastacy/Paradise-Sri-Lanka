@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/* Typography */
+h1, h2, h3, h4, h5, h6, p {
+  font-family: 'Roboto';
+  font-style: normal;
+}
+
+/* Заголовки статей, секций*/
+h1 {
+  font-weight: 600;
+  font-size: 38px;
+  line-height: 45px;
+  color: #373829;
+}
+
+/* Заголовки статей (экскурсии)*/
+h2 {
+  font-weight: 800;
+  font-size: 32px;
+  line-height: 38px;
+  color: #373829
+}
+
+/* Заголовки статей, секций*/
+h3 {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 38px;
+  color: #373829;
+}
+
+/* Текст для карточек услуг*/
+h4 {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  color: #FFFFFF;
+}
+
+h5 {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #FFFFFF;
+}
+
+/* Текст для карточек услуг*/
+h6 {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #FFFFFF;
+}
+
+p {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  color: #373829;
+}
+
+
+/* Elements */
+
+button {
+  background: transparent;
+  border-radius: 50px;
+  box-sizing: border-box;
+  padding: 13px 36px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: justify;
+  cursor: pointer;
+}
+
+button.primary {
+  border: 2px solid #202020;
+  color: #202020;
+}
+
+button.primary:hover {
+  background: #202020;
+  color: #E6EEF5;
+}
+
+button.primary:active {
+  background: #202020;
+  box-shadow: inset 0px -5px 5px rgba(230, 238, 245, 0.4);
+  color: #E6EEF5;
+}
+
+button.secondary {
+  border: 2px solid #E6EEF5;
+  color: #E6EEF5;
+}
+
+button.secondary:hover {
+  background: #E6EEF5;
+  color: #202020;
+}
+
+button.secondary:active {
+  background: #E6EEF5;
+  box-shadow: inset 0px -7px 5px rgba(32, 32, 32, 0.4);
+  color: #202020;
+}
+
