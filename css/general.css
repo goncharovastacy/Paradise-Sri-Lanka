@@ -1,8 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Roboto&display=swap');
 
+* {
+  box-sizing: border-box;
+}
+
+/* padding для того, чтобы при сжатии был какой-то отступ*/
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 15px;
+}
 
 /* Typography */
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   font-family: 'Montserrat';
 }
 
@@ -39,6 +51,7 @@ p {
   line-height: 19px;
   color: #202020;
 }
+
 /*Текст секций на странице с услугами*/
 p {
   font-family: 'Roboto';
@@ -65,35 +78,34 @@ button {
   cursor: pointer;
 }
 
-button.primary {
+button.button_first {
   border: 2px solid #202020;
   color: #202020;
 }
 
-button.primary:hover {
+button.button_first:hover {
   background: #202020;
   color: #E6EEF5;
 }
 
-button.primary:active {
+button.button_first:active {
   background: #202020;
   box-shadow: inset 0px -5px 5px rgba(230, 238, 245, 0.4);
   color: #E6EEF5;
 }
 
-button.secondary {
+button.button_second {
   border: 2px solid #E6EEF5;
   color: #E6EEF5;
 }
 
-button.secondary:hover {
+button.button_second:hover {
   background: #E6EEF5;
   color: #202020;
 }
 
-button.secondary:active {
+button.button_second:active {
   background: #E6EEF5;
   box-shadow: inset 0px -7px 5px rgba(32, 32, 32, 0.4);
   color: #202020;
 }
-
