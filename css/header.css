@@ -1,11 +1,48 @@
-header {
+a:link,
+a:visited {
+  text-decoration: none;
+  color: inherit;
+}
+a:hover {
+  text-decoration: underline;
+}
+.header {
+  position: absolute;
+  width: 100%;
   display: flex;
   justify-content: space-around;
+  padding-top: 80px;
+  color: white;
 }
-.header_menu {
+.header p {
+  margin: 0;
+  font-size: 30px;
+  color: #e4f3f8;
+}
+.header__menu {
+  padding: 5px 0;
+  margin: 0;
   list-style: none;
 }
-.header_menu li {
+.header__menu li {
   display: inline;
-  padding: 0 5px;
+  padding: 0 20px;
+  font-family: "Roboto";
+  font-size: 20px;
+}
+.banner {
+  text-align: center;
+  background-image: url(../assets/images/banner.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.banner h1 {
+  margin: 0 auto;
+  padding: 375px 0 40px;
+  max-width: 800px;
+}
+.banner p {
+  margin: 0;
+  padding-bottom: 380px;
+  color: white;
 }
