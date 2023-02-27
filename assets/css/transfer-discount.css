@@ -1,0 +1,67 @@
+.transfer {
+    width: 50%;
+    margin: auto;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    text-align: center;
+}
+
+.discount {
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+    background-color: #C2AB9D;
+    padding: 10px;
+}
+
+.discount img {
+    margin-left: 30px;
+}
+
+h4 {
+    width: 60%;
+    text-align: center;
+    align-self: center;
+    margin-left: 60px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 58px;
+    line-height: 60px;
+    color: #FFFF;
+}
+
+/* -------------TABLET----------------- */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .transfer {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .discount img {
+        margin-left: 15px;
+    }
+
+    h4 {
+        width: 100%;
+        margin-left: 30px;
+        font-size: 38px;
+    }
+}
+
+/* --------------PHONE-------------------- */
+@media screen and (max-width: 767px) {
+    .transfer {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .discount img {
+        display: none;
+    }
+
+    h4 {
+        width: 100%;
+        margin-left: 0;
+        font-size: 38px;
+    }
+}

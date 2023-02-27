@@ -1,0 +1,67 @@
+.title {
+  background-color: #373829;
+}
+.title h1 {
+  margin: 0;
+  padding: 35px 0;
+  font-size: 32px;
+  text-align: center;
+  color: #ffffff;
+}
+.tour {
+  display: flex;
+  padding: 75px 120px 40px;
+}
+.tour__text {
+  margin-left: 40px;
+}
+.tour__text h2 {
+  margin: 0;
+  padding-bottom: 40px;
+  font-size: 32px;
+  text-align: center;
+  color: #373829;
+}
+.tour__text p {
+  font-size: 24px;
+  line-height: 28px;
+  text-align: justify;
+  color: #373829;
+}
+.tour1 {
+  background-color: #fbede7;
+}
+.tour2 {
+  background-color: #e6eef5;
+}
+@media screen and (max-width: 767px) {
+  .title h1 {
+    line-height: 45px;
+  }
+  .tour {
+    flex-wrap: wrap;
+    padding: 20px;
+  }
+  .tour img {
+    max-width: 100%;
+    margin: auto;
+  }
+  .tour__text {
+    margin: 0;
+    padding-top: 20px;
+  }
+  .tour__text h2 {
+    padding: 0;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .tour {
+    padding: 40px;
+  }
+  .tour__text h2 {
+    padding: 0;
+  }
+  .tour__text p {
+    font-size: 22px;
+  }
+}

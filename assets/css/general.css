@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Roboto&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+/* padding для того, чтобы при сжатии был какой-то отступ*/
+.container {
+  max-width: 1230px;
+  margin: auto;
+  padding: 0 15px;
+}
+
+/* Typography */
+h1,
+h2,
+h3 {
+  font-family: 'Montserrat';
+}
+
+/* Заголовок баннера*/
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 80px;
+  line-height: 98px;
+  color: #FFFFFF;
+}
+
+/* Заголовки статей, секций*/
+h2 {
+  font-weight: 600;
+  font-size: 38px;
+  line-height: 46px;
+  color: #202020;
+}
+
+/* Заголовки карточек услуг на главной*/
+h3 {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: #FFFFFF;
+}
+
+/*Текст всех секций (кроме страницы с услугами)*/
+p {
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #202020;
+}
+
+/*Текст секций на странице с услугами*/
+p {
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  color: #202020;
+}
+
+
+/* Elements */
+
+button {
+  background: transparent;
+  border-radius: 50px;
+  box-sizing: border-box;
+  padding: 13px 36px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: justify;
+  cursor: pointer;
+}
+
+button.button_first {
+  border: 2px solid #202020;
+  color: #202020;
+}
+
+button.button_first:hover {
+  background: #202020;
+  color: #E6EEF5;
+}
+
+button.button_first:active {
+  background: #202020;
+  box-shadow: inset 0px -5px 5px rgba(230, 238, 245, 0.4);
+  color: #E6EEF5;
+}
+
+button.button_second {
+  border: 2px solid #E6EEF5;
+  color: #E6EEF5;
+}
+
+button.button_second:hover {
+  background: #E6EEF5;
+  color: #202020;
+}
+
+button.button_second:active {
+  background: #E6EEF5;
+  box-shadow: inset 0px -7px 5px rgba(32, 32, 32, 0.4);
+  color: #202020;
+}
