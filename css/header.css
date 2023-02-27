@@ -46,3 +46,38 @@ a:hover {
   padding-bottom: 380px;
   color: white;
 }
+#toggle,
+label {
+  display: none;
+}
+@media screen and (max-width: 767px) {
+  .header {
+    padding-top: 40px;
+  }
+  .header__menu {
+    display: none;
+  }
+  .header__menu li {
+    padding: 5px 0;
+  }
+  label {
+    display: block;
+    font-size: 24px;
+    cursor: pointer;
+  }
+  #toggle:checked ~ .header__menu {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 100vw;
+    top: 80px;
+  }
+  .banner h1 {
+    padding-top: 300px;
+    font-size: 50px;
+  }
+  .banner p {
+    padding-bottom: 250px;
+  }
+}
