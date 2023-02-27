@@ -1,49 +1,139 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/normalize.css" />
-    <link rel="stylesheet" href="./css/style.css" />
     <link rel="stylesheet" href="./css/header.css" />
+    <link rel="stylesheet" href="./css/general.css" />
+    <link rel="stylesheet" href="./css/transfer-discount.css" />
+    <link rel="stylesheet" href="./css/footer.css" />
+    <link rel="stylesheet" href="./css/services.css">
     <title>Document</title>
   </head>
   <body>
     <header>
-      <a href="./index.html"><img src="" alt="logotip" /></a>
-      <ul class="header_menu">
-        <li><a href="">О стране</a></li>
-        <li><a href="./pages/excursions.html">Экскурсии</a></li>
-        <li><a href="">Другие услуги</a></li>
-        <li><a href="">Трансфер</a></li>
-        <li><a href="">Контакты</a></li>
-      </ul>
+      <div class="header">
+        <a href="./index.html">
+          <p>SRI LANKA</p>
+        </a>
+        <label for="toggle">☰</label>
+        <input type="checkbox" id="toggle" />
+        <ul class="header__menu">
+          <li><a href="./pages/excursions.html">Экскурсии</a></li>
+          <li><a href="">Досуг</a></li>
+          <li><a href="">О Шри-Ланке</a></li>
+          <li><a href="#contacts">Контакты</a></li>
+        </ul>
+      </div>
       <!-- БАННЕР -->
-      <div class="banner"></div>
+      <div class="banner">
+        <h1>Райский Остров<br />SRI LANKA</h1>
+        <p>ГИД-ТУРЫ</p>
+      </div>
     </header>
     <main>
       <!-- О НЕМ -->
       <div class="about"></div>
+
       <!-- УСЛУГИ -->
-      <div class="services"></div>
-      <!-- ТРАНСФЕР -->
-      <div class="transfer"></div>
-      <!-- СКИДКИ -->
-      <div class="discount"></div>
-    </main>
-    <footer>
-      <div class="footer">
-        <div class="footer__contacts">
-          <h4>КОНТАКТЫ</h4>
-          <div class="footer__contacts__item">
-            <a href="tel:+94771378969">+94 77 137 8969</a>
-          </div>
-          <div class="footer__contacts__item">
-            <a href="mailto:puththuputha@gmail.com">puththuputha@gmail.com</a>
+      <div class="services">
+        <h2 class="serviceshdl">Услуги</h2>
+        <div class="services_cards_wrapper">
+          <div class="services_cards">
+
+            <div class="services_card service-1">
+              <img src="./assets/images/excursion.png" alt="" class="service_pict"> 
+              <h3 class="service_hdl">Экскурсии</h3>
+              <p class="service_desccription">Посетить самые красивые места Шри-Ланки в экскурсиях на 1, 2, 3 и 7 дней</p>  
+              <button class="button_second">Читать больше</button>
+            </div>
+
+            <div class="services_card service-2">
+              <img src="./assets/images/activerest.png" alt="" class="service_pict"> 
+              <h3 class="service_hdl">Активный отдых</h3>
+              <p class="service_desccription">Для любителей приключений: рафтинг, велосипедные туры и спуск на каноэ</p>  
+              <button class="button_second">Читать больше</button>  
+            </div>
+
+            <div class="services_card service-3">
+              <img src="./assets/images/turtles.png" alt="" class="service_pict"> 
+              <h3 class="service_hdl">Ночной тур с черепахами</h3>
+              <p class="service_description">Знакомство с древнейшими обитателями планеты в лунном свете </p>
+              <button class="button_second">Читать больше</button>  
+            </div>
+
+            <div class="services_card service-4">
+              <img src="./assets/images/fishing-serv.png" alt="" class="service_pict"> 
+               <h3 class="service_hdl">Рыбная ловля</h3>
+              <p class="service_description"> Одно из самых популярных развлечений на Шри-Ланке</p>
+              <button class="button_second">Читать больше</button>    
+            </div>
+
+            <div class="services_card service-5">
+              <img src="./assets/images/massage.png" alt="" class="service_pict"> 
+              <h3 class="service_hdl">Массаж</h3>
+              <p class="service_description">Лечебный традиционный массаж и spa-процедуры </p>   
+              <button class="button_second">Читать больше</button>
+            </div>
+
+            <div class="services_card service-6">
+              <img src="./assets/images/restaurant.png" alt="" class="service_pict"> 
+              <h3 class="service_hdl">Oruwa Beach Restaurant</h3>
+              <p class="service_description">Насладиться мультинациональной кухней на пляже в нашем ресторане </p>    
+              <button class="button_second">Читать больше</button>
+            </div>
+
           </div>
         </div>
-        <div class="footer__social-medias"></div>
+      </div>
+      
+      <!-- ТРАНСФЕР -->
+      <div class="transfer">
+        <h2>Трансфер</h2>
+        <p>
+          Доступна услуга трансфера до отеля и  в аэропорты Коломбо и
+          Хамбантота. По запросу, в зависимости от количества людей, могут быть
+          организованы машина, минивэн, автобус, гидросамолет и вертолет.
+        </p>
+        <p>
+          Стоимость зависит от вида транспорта и количества людей. Для заказа
+          услуги свяжитесь по телефону:  +94 77 137 8969
+        </p>
+      </div>
+      <!-- СКИДКИ -->
+      <div class="discount">
+        <img src="./assets/images/discount.svg" alt="discount" />
+        <h4>
+          Скидка 15% <br />
+          на бронирование до декабря 2023
+        </h4>
+      </div>
+    </main>
+    <footer id="contacts">
+      <div class="background-wrapper">
+        <div class="footer">
+          <div class="container">
+            <div class="footer__contacts">
+              <div class="footer__contacts__headline">
+                <h2>Контакты</h2>
+                <h2>Буду рад Вам помочь!</h2>
+              </div>
+              <div class="footer__contacts__links">
+                <a href="tel:+94771378969">+94 77 137 8969</a>
+                <a href="mailto:puththuputha@gmail.com"
+                  >puththuputha@gmail.com</a
+                >
+              </div>
+            </div>
+            <div class="footer__social-medias">
+              <a href=""
+                ><img src="./assets/images/logo-instagram.svg" alt="instagram"
+              /></a>
+            </div>
+          </div>
+        </div>
       </div>
     </footer>
   </body>
