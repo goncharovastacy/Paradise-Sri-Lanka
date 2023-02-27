@@ -1,0 +1,56 @@
+footer {
+    background-color: #202020;
+}
+
+.background-wrapper {
+    max-width: 1302px;
+    margin: auto;
+}
+
+.footer {
+    background-image: url(../assets/images/Group46.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.footer__contacts {
+    padding-top: 70px;
+}
+
+.footer__contacts__headline {
+    display: flex;
+}
+
+.footer__contacts__headline h2 {
+    color: #FFFFFF;
+}
+
+.footer__contacts__headline h2:last-child {
+    margin-left: 108px;
+}
+
+.footer__contacts__links {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+
+.footer__contacts__links a:first-child {
+    max-width: 150px;
+}
+
+.footer__contacts__links a:last-child {
+    max-width: 232px;
+}
+
+.footer__social-medias {
+    margin-top: 22.5px;
+    padding-bottom: 70px;
+}
