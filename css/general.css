@@ -6,7 +6,7 @@
 
 /* padding для того, чтобы при сжатии был какой-то отступ*/
 .container {
-  max-width: 1230px;
+  max-width: 1200px;
   margin: auto;
   padding: 0 15px;
 }
