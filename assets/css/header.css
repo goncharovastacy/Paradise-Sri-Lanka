@@ -79,7 +79,7 @@ label {
     cursor: pointer;
   }
 
-  #toggle:checked~.header__menu {
+  #toggle:checked ~ .header__menu {
     position: absolute;
     display: flex;
     flex-direction: column;
