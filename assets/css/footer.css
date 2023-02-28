@@ -7,12 +7,6 @@ footer {
     margin: auto;
 }
 
-.footer {
-    background-image: url(../images/Group46.png);
-    background-repeat: no-repeat;
-    background-position: right;
-}
-
 .footer__contacts {
     padding-top: 70px;
 }
@@ -53,4 +47,35 @@ footer {
 .footer__social-medias {
     margin-top: 22.5px;
     padding-bottom: 70px;
+}
+
+.footer__social-medias a {
+    max-width: 21px;
+}
+
+@media (max-width: 767px) {
+    .footer__contacts__headline {
+        justify-content: center;
+    }
+
+    .footer__contacts__headline h2:last-child {
+        display: none;
+    }
+
+    .footer__contacts__links {
+        align-items: center;
+    }
+
+    .footer__social-medias a {
+        display: block;
+        margin: auto;
+    }
+}
+
+@media (min-width: 1110px) {
+    .footer {
+        background-image: url(../images/Group46.png);
+        background-repeat: no-repeat;
+        background-position: right;
+    }
 }
