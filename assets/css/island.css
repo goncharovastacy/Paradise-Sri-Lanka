@@ -1,8 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Roboto&display=swap");
-.header__menu {
-  background-image: url(../images/banner.png);
-  z-index: 10;
-}
+
 .banner {
   padding: 160px 0 50px;
 }
@@ -46,4 +43,10 @@
   flex-wrap: nowrap;
   justify-content: space-around;
   padding: 0 50px 50px;
+}
+@media screen and (max-width: 767px) {
+  .header__menu {
+    background-image: url(../images/banner.png);
+    z-index: 10;
+  }
 }
