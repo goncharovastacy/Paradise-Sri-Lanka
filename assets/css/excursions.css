@@ -1,67 +1,68 @@
-.title {
-  background-color: #373829;
+.banner{
+  height: 1024px;
+  text-align: start;
 }
-.title h1 {
-  margin: 0;
-  padding: 35px 0;
-  font-size: 32px;
-  text-align: center;
-  color: #ffffff;
-}
-.tour {
-  display: flex;
-  padding: 75px 120px 40px;
-}
-.tour__text {
-  margin-left: 40px;
-}
-.tour__text h2 {
-  margin: 0;
-  padding-bottom: 40px;
-  font-size: 32px;
-  text-align: center;
-  color: #373829;
-}
-.tour__text p {
+.banner p {
+  padding-bottom:40px;
+  font-family: 'Roboto';
+  font-weight: 400;
   font-size: 24px;
   line-height: 28px;
-  text-align: justify;
   color: #373829;
 }
-.tour1 {
-  background-color: #fbede7;
+.excursions{
+  position:absolute;
+  top:160px;
+  padding: 34px 60px 30px 50px;
+  background: #D9D9D9;
+  mix-blend-mode: hard-light;
+  max-width: 1200px;
+  max-height: 575px;
 }
-.tour2 {
-  background-color: #e6eef5;
+.excursions h2{
+  text-align: center;
+}
+.excursions__wrapper{
+  display: flex;
+  justify-content: space-between;
+}
+.excursions__title{
+  padding: 15px 15px;
+  border-width: 1px 0 0 0;
+  border-color: #202020;
+  border-style: solid;
+  font-family: 'Montserrat';
+  font-weight: 500;
+  font-size: 20px;
+  color: #202020;
+  cursor:pointer;
+  opacity: 0.8;
+}
+.excursions__title.active{
+  opacity: 1;
+  font-weight: 600;
+}
+.excursions__title:hover{
+  opacity: 1;
+  font-weight: 600;
+}
+.excursions__title:last-child{
+  border-width: 1px 0;
+}
+.excursions__article{
+  padding-left:60px;
+  max-width:788px;
+}
+.excursions__article h3{
+  font-family: 'Montserrat';
+  font-weight: 600;
+  font-size: 20px;
+  color: #202020;
+  margin-top:0;
 }
 @media screen and (max-width: 767px) {
-  .title h1 {
-    line-height: 45px;
-  }
-  .tour {
-    flex-wrap: wrap;
-    padding: 20px;
-  }
-  .tour img {
-    max-width: 100%;
-    margin: auto;
-  }
-  .tour__text {
-    margin: 0;
-    padding-top: 20px;
-  }
-  .tour__text h2 {
-    padding: 0;
-  }
+ 
 }
 @media screen and (min-width: 768px) and (max-width: 1023px) {
-  .tour {
-    padding: 40px;
-  }
-  .tour__text h2 {
-    padding: 0;
-  }
-  .tour__text p {
-    font-size: 22px;
-  }
+ 
 }
