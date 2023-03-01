@@ -1,0 +1,69 @@
+.tour {
+  display: flex;
+  padding: 50px 0;
+}
+.tour1 {
+  background-color: #fbede7;
+}
+.tour2 {
+  background-color: #e6eef5;
+}
+.tour3 {
+  background-color: #d5e0ea;
+}
+.tour4 {
+  background-color: #c2ab9d;
+}
+.tour5 {
+  background-color: #d19479;
+}
+.tour img {
+  max-height: 465px;
+  align-self: center;
+}
+.tour__text {
+  margin-left: 30px;
+  color: #202020;
+}
+.tour__text h2 {
+  margin: 0;
+  padding-bottom: 30px;
+  font-size: 38px;
+  text-align: center;
+}
+.tour__text p {
+  margin: 0;
+  padding-bottom: 10px;
+  font-size: 20px;
+  line-height: 23px;
+}
+.tour5 li {
+  font-family: "Roboto";
+  font-size: 20px;
+  line-height: 23px;
+}
+@media screen and (max-width: 1023px) {
+  .tour {
+    flex-wrap: wrap;
+    padding: 20px 0;
+  }
+  .tour img {
+    max-width: 100%;
+    margin: auto;
+  }
+  .tour__text {
+    margin: 0;
+    padding-top: 20px;
+  }
+  .tour__text h2 {
+    padding: 0 0 10px;
+  }
+  .tour5 ul {
+    padding: 0 0 0 20px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .tour {
+    padding: 20px 15px;
+  }
+}
