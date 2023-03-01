@@ -3,11 +3,9 @@ a:visited {
   text-decoration: none;
   color: inherit;
 }
-
 a:hover {
   text-decoration: underline;
 }
-
 .header {
   position: absolute;
   width: 100%;
@@ -16,69 +14,57 @@ a:hover {
   padding-top: 80px;
   color: white;
 }
-
 .header p {
   margin: 0;
   font-size: 30px;
   color: #e4f3f8;
 }
-
 .header__menu {
   padding: 5px 0;
   margin: 0;
   list-style: none;
 }
-
 .header__menu li {
   display: inline;
   padding: 0 20px;
   font-family: "Roboto";
   font-size: 20px;
 }
-
 .banner {
   text-align: center;
   background-image: url(../images/banner.png);
   background-size: cover;
   background-repeat: no-repeat;
 }
-
 .banner h1 {
   margin: 0 auto;
   padding: 375px 0 40px;
   max-width: 800px;
 }
-
 .banner p {
   margin: 0;
   padding-bottom: 380px;
   color: white;
 }
-
 #toggle,
 label {
   display: none;
 }
-
 @media screen and (max-width: 767px) {
   .header {
     padding-top: 40px;
   }
-
   .header__menu {
     display: none;
   }
-
   .header__menu li {
     padding: 5px 0;
   }
-
   label {
     display: block;
     font-size: 24px;
     cursor: pointer;
   }
-
   #toggle:checked ~ .header__menu {
     position: absolute;
     display: flex;
@@ -87,13 +73,11 @@ label {
     width: 100vw;
     top: 80px;
   }
-
   .banner h1 {
-    padding-top: 300px;
+    padding: 200px 5px 0;
     font-size: 50px;
   }
-
   .banner p {
-    padding-bottom: 250px;
+    padding-bottom: 150px;
   }
 }
