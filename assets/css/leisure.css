@@ -2,19 +2,19 @@
   display: flex;
   padding: 50px 0;
 }
-.tour1 {
+.tour-1 {
   background-color: #fbede7;
 }
-.tour2 {
+.tour-2 {
   background-color: #e6eef5;
 }
-.tour3 {
+.tour-3 {
   background-color: #d5e0ea;
 }
-.tour4 {
+.tour-4 {
   background-color: #c2ab9d;
 }
-.tour5 {
+.tour-5 {
   background-color: #d19479;
 }
 .tour img {
@@ -42,6 +42,11 @@
   font-size: 20px;
   line-height: 23px;
 }
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .tour {
+    padding: 20px 15px;
+  }
+}
 @media screen and (max-width: 1023px) {
   .tour {
     flex-wrap: wrap;
@@ -60,10 +65,5 @@
   }
   .tour5 ul {
     padding: 0 0 0 20px;
-  }
-}
-@media screen and (min-width: 768px) and (max-width: 1023px) {
-  .tour {
-    padding: 20px 15px;
   }
 }
