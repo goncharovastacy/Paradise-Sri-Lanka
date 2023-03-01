@@ -86,3 +86,58 @@
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   
 }
+
+.charge {
+  background-color: #C2AB9D;
+}
+
+.package {
+  display: flex;
+  justify-content: space-between;
+}
+
+.request {
+  padding-top: 35px;
+  padding-left: 40px;
+}
+
+h4 {
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 45px;
+line-height: 56px;
+color: #FFFFFF;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .charity {
+      display: none;
+  }
+
+  .request {
+      justify-content: center;
+  }
+
+  h4 {
+      text-align: center;
+      padding-left: 0px;
+      font-size: 25px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .charity {
+    display: none;
+}
+ 
+.request {
+  justify-content: center;
+}
+
+  h4 {
+      text-align: center;
+      padding-left: 0;
+      font-size: 25px;
+  }
+}
