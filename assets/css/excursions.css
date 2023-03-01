@@ -10,6 +10,9 @@
   line-height: 28px;
   color: #373829;
 }
+.container{
+  max-width:1200px;
+}
 .excursions{
   position:absolute;
   top:160px;
@@ -41,10 +44,12 @@
 .excursions__title.active{
   opacity: 1;
   font-weight: 600;
+  padding-right: 8px;
 }
 .excursions__title:hover{
   opacity: 1;
   font-weight: 600;
+  padding-right: 8px;
 }
 .excursions__title:last-child{
   border-width: 1px 0;
