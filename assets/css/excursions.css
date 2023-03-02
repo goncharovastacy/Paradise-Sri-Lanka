@@ -1,127 +1,126 @@
-.banner{
+.banner {
   text-align: start;
-  padding-top:140px;
-  padding-bottom:50px;
+  padding-top: 140px;
+  padding-bottom: 50px;
 }
 .banner p {
-  padding-bottom:40px;
-  font-family: 'Roboto';
+  padding-bottom: 40px;
+  font-family: "Roboto";
   font-weight: 400;
   font-size: 24px;
   line-height: 28px;
   color: #373829;
 }
-.banner__container{
-  max-width:1200px;
+.banner__container {
+  max-width: 1200px;
   margin: 0 auto;
 }
-.excursions{
+.excursions {
   padding: 20px 60px 30px 50px;
-  background: #D9D9D9;
+  background: #d9d9d9;
   mix-blend-mode: hard-light;
-  width:100%;
+  width: 100%;
 }
-.excursions h2{
+.excursions h2 {
   text-align: center;
 }
-.excursions__wrapper{
+.excursions__wrapper {
   display: flex;
   justify-content: space-between;
 }
-.excursions__title{
+.excursions__title {
   padding: 15px 15px;
   border-width: 1px 0 0 0;
   border-color: #202020;
   border-style: solid;
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   font-weight: 500;
   font-size: 20px;
   color: #202020;
-  cursor:pointer;
+  cursor: pointer;
   opacity: 0.8;
 }
-.excursions__title.active{
+.excursions__title.active {
   opacity: 1;
   font-weight: 600;
   padding-right: 8px;
 }
-.excursions__title:hover{
+.excursions__title:hover {
   opacity: 1;
   font-weight: 600;
   padding-right: 8px;
 }
-.excursions__title:last-child{
+.excursions__title:last-child {
   border-width: 1px 0;
 }
-.excursions__article{
-  padding-left:60px;
-  max-width:788px;
+.excursions__article {
+  padding-left: 60px;
+  max-width: 788px;
 }
-.excursions__article h3{
-  font-family: 'Montserrat';
+.excursions__article h3 {
+  font-family: "Montserrat";
   font-weight: 600;
   font-size: 20px;
   color: #202020;
-  margin-top:0;
+  margin-top: 0;
 }
 @media screen and (max-width: 1220px) {
-  .banner__container{
+  .banner__container {
     margin: 0 15px;
   }
 }
 @media screen and (max-width: 767px) {
-  .banner{
-    padding-top:90px;
+  .header__menu {
+    background-image: url(../images/banner.png);
+    z-index: 10;
   }
-  .banner__container{
+  .banner {
+    padding-top: 100px;
+  }
+  .banner__container {
     margin: 0 5px;
   }
-  .excursions{
+  .excursions {
     padding: 5px 10px 10px 10px;
   }
-  .excursions h2{
+  .excursions h2 {
     font-size: 32px;
-    margin-bottom:10px;
-    margin-top:15px;
-
+    margin-bottom: 15px;
   }
-  .excursions__wrapper{
+  .excursions__wrapper {
     flex-direction: column;
     justify-content: flex-start;
   }
-  .excursions__titles{
-    display:grid;
+  .excursions__titles {
+    display: grid;
     grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
-    column-gap:10px;
-    align-items:end;
+    column-gap: 10px;
+    align-items: end;
   }
-  .excursions__title{
+  .excursions__title {
     padding: 6px;
     border-width: 0px 0 1px 0;
     font-weight: 400;
     font-size: 17px;
   }
-  .excursions__title:last-child{
+  .excursions__title:last-child {
     border-width: 0px 0 1px 0;
   }
-  .excursions__article{
-    padding-left:5px;
+  .excursions__article {
+    padding-left: 5px;
   }
-  .banner p{
-    font-size:18px;
+  .banner p {
+    font-size: 18px;
     line-height: 24px;
     padding-bottom: 20px;
   }
-  .excursions__article h3{
-    padding-top:20px;
+  .excursions__article h3 {
+    padding-top: 20px;
   }
-}
-@media screen and (min-width: 768px) and (max-width: 1023px) {
-  
 }
 
 .charge {
-  background-color: #C2AB9D;
+  background-color: #c2ab9d;
 }
 
 .package {
@@ -135,42 +134,42 @@
 }
 
 h4 {
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 600;
-font-size: 45px;
-line-height: 56px;
-color: #FFFFFF;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 45px;
+  line-height: 56px;
+  color: #ffffff;
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   .charity {
-      display: none;
+    display: none;
   }
 
   .request {
-      justify-content: center;
+    justify-content: center;
   }
 
   h4 {
-      text-align: center;
-      padding-left: 0px;
-      font-size: 25px;
+    text-align: center;
+    padding-left: 0px;
+    font-size: 25px;
   }
 }
 
 @media screen and (max-width: 767px) {
   .charity {
     display: none;
-}
- 
-.request {
-  justify-content: center;
-}
+  }
+
+  .request {
+    justify-content: center;
+  }
 
   h4 {
-      text-align: center;
-      padding-left: 0;
-      font-size: 25px;
+    text-align: center;
+    padding-left: 0;
+    font-size: 25px;
   }
 }
