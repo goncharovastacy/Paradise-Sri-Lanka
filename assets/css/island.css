@@ -47,6 +47,15 @@
   box-sizing: border-box;
 }
 
+@media screen and (max-width: 686px){
+  .island_img{
+    display: none;
+  }
+  .island_container{
+    max-height: fit-content;
+  }
+}
+
 @media screen and (max-width: 767px) {
   .island_img_most{
     display: none;

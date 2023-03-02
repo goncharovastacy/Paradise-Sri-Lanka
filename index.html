@@ -9,34 +9,153 @@
     <link rel="stylesheet" href="./assets/css/general.css" />
     <link rel="stylesheet" href="./assets/css/transfer-discount.css" />
     <link rel="stylesheet" href="./assets/css/footer.css" />
+    <link rel="stylesheet" href="assets/css/services.css" />
+    <link rel="stylesheet" href="./assets/css/about.css" />
     <title>Document</title>
   </head>
   <body>
     <header>
       <div class="header">
         <a href="./index.html">
-          <p>SRI LANKA</p>
+          <p>Шри-Ланка</p>
         </a>
         <label for="toggle">☰</label>
         <input type="checkbox" id="toggle" />
         <ul class="header__menu">
-          <li><a href="./pages/excursions.html">Экскурсии</a></li>
-          <li><a href="">Досуг</a></li>
-          <li><a href="">О Шри-Ланке</a></li>
+          <li><a href="./assets/pages/excursions.html">Экскурсии</a></li>
+          <li><a href="./assets/pages/leisure.html">Досуг</a></li>
+          <li><a href="./assets/pages/island.html">О Шри-Ланке</a></li>
           <li><a href="#contacts">Контакты</a></li>
         </ul>
       </div>
       <!-- БАННЕР -->
       <div class="banner">
-        <h1>Райский Остров<br />SRI LANKA</h1>
+        <h1>Райский Остров Шри-Ланка</h1>
         <p>ГИД-ТУРЫ</p>
       </div>
     </header>
     <main>
       <!-- О НЕМ -->
-      <div class="about"></div>
+      <div class="about">
+        <h2>Обо мне</h2>
+        <div class="about__wrapper container">
+          <img src="./assets/images/aboutme.png" alt="aboutme" />
+          <div class="about__wrapper_text">
+            <p>
+              Приветствую, дорогие друзья! <br />
+              Меня зовут Тилина, и я буду рад познакомить Вас с удивительным
+              островом Шри-Ланка. <br />
+              Мой опыт в туризме более 5 лет. Я говорю на английском, немецком и
+              русском языках. <br />На этом сайте Вы найдете экскурсии и другие
+              виды досуга, которые я подготовил для Вас. Также буду рад видеть
+              Вас в моем ресторане на берегу океана.
+            </p>
+          </div>
+        </div>
+      </div>
       <!-- УСЛУГИ -->
-      <div class="services"></div>
+      <div class="services">
+        <h2>Услуги</h2>
+        <div class="services__cards-wrapper container">
+          <div class="services-cards">
+            <div class="services-cards__service-1 service-card">
+              <img
+                src="./assets/images/excursion.png"
+                alt=""
+                class="service-card__pict"
+              />
+              <h3 class="service-card__hdl">Экскурсии</h3>
+              <p class="service-card__description">
+                Посетить самые красивые места Шри-Ланки в экскурсиях на 1, 2, 3
+                и 7 дней
+              </p>
+              <button class="button_second">
+                <a href="./assets/pages/excursions.html">Читать больше</a>
+              </button>
+            </div>
+
+            <div class="service-card services-cards__service-2">
+              <img
+                src="./assets/images/activerest.png"
+                alt=""
+                class="service-card__pict"
+              />
+              <h3 class="service-card__hdl">Активный отдых</h3>
+              <p class="service-card__description">
+                Для любителей приключений: рафтинг, велосипедные туры и спуск на
+                каноэ
+              </p>
+              <button class="button_second">
+                <a href="./assets/pages/leisure.html#activerest"
+                  >Читать больше</a
+                >
+              </button>
+            </div>
+
+            <div class="services-cards__service-3 service-card">
+              <img
+                src="./assets/images/turtles.png"
+                alt=""
+                class="service-card__pict"
+              />
+              <h3 class="service-card__hdl">Ночной тур с черепахами</h3>
+              <p class="service-card__description">
+                Знакомство с древнейшими обитателями планеты в лунном свете
+              </p>
+              <button class="button_second">
+                <a href="./assets/pages/leisure.html#turtles">Читать больше</a>
+              </button>
+            </div>
+
+            <div class="services-cards__service-4 service-card">
+              <img
+                src="./assets/images/fishing-serv.png"
+                alt=""
+                class="service-card__pict"
+              />
+              <h3 class="service-card__hdl">Рыбная ловля</h3>
+              <p class="service-card__description">
+                Одно из самых популярных развлечений на Шри-Ланке
+              </p>
+              <button class="button_second">
+                <a href="./assets/pages/leisure.html#fishing">Читать больше</a>
+              </button>
+            </div>
+
+            <div class="services-cards__service-5 service-card">
+              <img
+                src="./assets/images/massage.png"
+                alt=""
+                class="service-card__pict"
+              />
+              <h3 class="service-card__hdl">Массаж</h3>
+              <p class="service-card__description">
+                Лечебный традиционный массаж и spa-процедуры
+              </p>
+              <button class="button_second">
+                <a href="./assets/pages/leisure.html#massage">Читать больше</a>
+              </button>
+            </div>
+
+            <div class="services-cards__service-6 service-card">
+              <img
+                src="./assets/images/restaurant.png"
+                alt=""
+                class="service-card__pict"
+              />
+              <h3 class="service-card__hdl">Oruwa Beach Restaurant</h3>
+              <p class="service-card__description">
+                Насладиться мультинациональной кухней на пляже в нашем ресторане
+              </p>
+              <button class="button_second">
+                <a href="./assets/pages/leisure.html#restaurant"
+                  >Читать больше</a
+                >
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
       <!-- ТРАНСФЕР -->
       <div class="transfer">
         <h2>Трансфер</h2>
@@ -52,30 +171,27 @@
       </div>
       <!-- СКИДКИ -->
       <div class="discount">
-        <img src="./assets/images/discount.svg" alt="discount" />
-        <h4>
-          Скидка 15% <br />
-          на бронирование до декабря 2023
-        </h4>
+        <!-- <img src="./assets/images/discount.png" alt="discount" /> -->
+        <h4>Забронируй тур до декабря и получи скидку 15%</h4>
       </div>
     </main>
     <footer id="contacts">
       <div class="background-wrapper">
         <div class="footer">
           <div class="container">
-            <div class="footer__contacts">
-              <div class="footer__contacts__headline">
+            <div class="contacts">
+              <div class="contacts__headline">
                 <h2>Контакты</h2>
                 <h2>Буду рад Вам помочь!</h2>
               </div>
-              <div class="footer__contacts__links">
+              <div class="contacts__links">
                 <a href="tel:+94771378969">+94 77 137 8969</a>
                 <a href="mailto:puththuputha@gmail.com"
                   >puththuputha@gmail.com</a
                 >
               </div>
             </div>
-            <div class="footer__social-medias">
+            <div class="social-medias">
               <a href=""
                 ><img src="./assets/images/logo-instagram.svg" alt="instagram"
               /></a>

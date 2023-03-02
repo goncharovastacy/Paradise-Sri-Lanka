@@ -7,22 +7,16 @@
 }
 
 .discount {
-    display: flex;
-    justify-content: flex-start;
-    align-content: center;
     background-color: #C2AB9D;
+    background-image: url(../images/discount.svg);
+    background-repeat: no-repeat;
+    background-position: 60px;
     padding: 10px;
 }
 
-.discount img {
-    margin-left: 30px;
-}
-
 h4 {
-    width: 60%;
-    text-align: center;
-    align-self: center;
-    margin-left: 60px;
+    text-align: left;
+    padding-left: 400px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
     font-size: 58px;
@@ -37,13 +31,13 @@ h4 {
         padding-bottom: 40px;
     }
 
-    .discount img {
-        margin-left: 15px;
+    .discount {
+        background-image: none;
     }
 
     h4 {
-        width: 100%;
-        margin-left: 30px;
+        text-align: center;
+        padding-left: 0px;
         font-size: 38px;
     }
 }
@@ -55,13 +49,13 @@ h4 {
         padding-bottom: 40px;
     }
 
-    .discount img {
-        display: none;
+    .discount {
+        background-image: none;
     }
 
     h4 {
-        width: 100%;
-        margin-left: 0;
+        text-align: center;
+        padding-left: 0;
         font-size: 38px;
     }
 }
