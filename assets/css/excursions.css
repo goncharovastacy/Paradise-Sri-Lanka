@@ -25,12 +25,18 @@
   text-align: center;
 }
 .excursions__wrapper {
-  display: flex;
-  justify-content: space-between;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.excursions__titles {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  column-gap: 30px;
+  align-items: end;
 }
 .excursions__title {
-  padding: 15px 15px;
-  border-width: 1px 0 0 0;
+  padding: 10px 10px;
+  border-width: 0px 0 1px 0;
   border-color: #202020;
   border-style: solid;
   font-family: "Montserrat";
@@ -50,12 +56,16 @@
   font-weight: 600;
   padding-right: 8px;
 }
-.excursions__title:last-child {
-  border-width: 1px 0;
-}
 .excursions__article {
-  padding-left: 60px;
-  max-width: 788px;
+  margin-top:30px;
+  justify-content: flex-start;
+}
+.excursions__article img{
+  max-width: 100%;
+}
+.excursions__text {
+  margin-left: 45px;
+  max-width:60%;
 }
 .excursions__article h3 {
   font-family: "Montserrat";
@@ -67,6 +77,28 @@
 @media screen and (max-width: 1220px) {
   .banner__container {
     margin: 0 15px;
+  }
+}
+@media screen and (max-width: 920px) {
+  .excursions__titles { /*полностью новый*/
+    grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+    column-gap: 20px;
+  }
+  .excursions__title {
+    padding: 6px;
+    font-weight: 400;
+    font-size: 18px;
+  }
+  .banner p {
+    font-size: 20px;
+    padding-bottom: 25px;
+  }
+  .excursions h2 {
+    margin-bottom: 15px;
+  }
+  .excursions__text {
+    margin-left: 30px;
+    max-width:55%;
   }
 }
 @media screen and (max-width: 767px) {
@@ -85,15 +117,12 @@
   }
   .excursions h2 {
     font-size: 32px;
-    margin-bottom: 15px;
   }
   .excursions__wrapper {
     flex-direction: column;
     justify-content: flex-start;
   }
   .excursions__titles {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
     column-gap: 10px;
     align-items: end;
   }
@@ -101,7 +130,7 @@
     padding: 6px;
     border-width: 0px 0 1px 0;
     font-weight: 400;
-    font-size: 17px;
+    font-size: 18px;
   }
   .excursions__title:last-child {
     border-width: 0px 0 1px 0;
@@ -110,12 +139,22 @@
     padding-left: 5px;
   }
   .banner p {
-    font-size: 18px;
+    font-size: 20px;
     line-height: 24px;
     padding-bottom: 20px;
   }
-  .excursions__article h3 {
-    padding-top: 20px;
+}
+@media screen and (max-width: 580px){
+  .excursions__article {
+    margin-top:20px;
+    flex-direction: column-reverse;
+  }
+  .excursions__text {
+    max-width:100%;
+    margin-left:0;
+  }
+  .excursions__article{
+    align-items:center;
   }
 }
 
@@ -149,6 +188,7 @@ h4 {
 
   .request {
     justify-content: center;
+    padding-left:0;
   }
 
   h4 {
@@ -165,6 +205,7 @@ h4 {
 
   .request {
     justify-content: center;
+    padding-left:0;
   }
 
   h4 {

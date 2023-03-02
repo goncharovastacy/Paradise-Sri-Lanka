@@ -41,7 +41,7 @@ const $on = (el, ev, fn) => {
     const navItems = () => $$('.excursions__titles > div')
     const activeNavItems = () => $$('.excursions__titles > div.active')
 
-    const show = elem => (elem.style.display = 'block')
+    const show = elem => (elem.style.display = 'flex')
     const hide = elem => (elem.style.display = 'none')
 
     init()
