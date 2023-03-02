@@ -9,7 +9,6 @@
 .island_container {
   margin: auto;
   max-width: 1230px;
-  max-height: 933px;
   background-color: #d9d9d9;
   mix-blend-mode: hard-light;
 }
@@ -44,9 +43,25 @@
   justify-content: space-around;
   padding: 0 50px 50px;
 }
-@media screen and (max-width: 767px) {
-  .header__menu {
-    background-image: url(../images/banner.png);
-    z-index: 10;
+@media screen and (max-width: 1195px){
+  .island_img {
+    flex-direction: column;
+    align-items: center;
+    max-width:100%;
+  }
+  .island_img_most{
+    display: none;
+  }
+}
+@media screen and (max-width: 767px){
+  .banner{
+    padding-top: 100px;
+  }
+  .island_img_most{
+    display: block;
+    max-width: 100%;
+  }
+  .island_img_1{
+    display: none;
   }
 }
