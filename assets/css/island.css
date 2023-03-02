@@ -1,15 +1,17 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Roboto&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Roboto&display=swap");
 
-.banner{padding: 160px 0 50px;}
-.banner h1{
-  padding: 50px 0 0 ;
+.banner {
+  padding: 160px 0 50px;
 }
-.island_container {margin: auto;
+.banner h1 {
+  padding: 50px 0 0;
+}
+.island_container {
+  margin: auto;
   max-width: 1230px;
   max-height: 933px;
   background-color: #d9d9d9;
   mix-blend-mode: hard-light;
-  
 }
 
 .island1 {
@@ -32,15 +34,22 @@
   font-size: 16px;
   line-height: 19px;
   text-align: justify;
-text-indent: 5%;
+  text-indent: 5%;
   color: #202020;
 }
-.island_img{
- display: flex;
-flex-direction: row;
-flex-wrap: nowrap;
-justify-content: space-around;
-    padding: 0 50px 50px;
 
+.island_img {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  padding: 0 50px 50px;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 767px) {
+  .island_img_most{
+    display: none;
   }
+}
 
