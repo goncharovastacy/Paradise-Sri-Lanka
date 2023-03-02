@@ -70,7 +70,7 @@
 .excursions__article h3 {
   font-family: "Montserrat";
   font-weight: 600;
-  font-size: 20px;
+  font-size: 25px;
   color: #202020;
   margin-top: 0;
 }
@@ -168,6 +168,9 @@ h4 {
   }
   .excursions__article {
     padding-left: 5px;
+  }
+  .excursions__article h3{
+    font-size: 22px;
   }
   .banner p {
     font-size: 20px;
