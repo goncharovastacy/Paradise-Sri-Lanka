@@ -14,9 +14,16 @@
     padding: 10px;
 }
 
+.discount__headline {
+    display: flex;
+    justify-content: end;
+}
+
 h4 {
+    margin: 0;
+    padding: 100px 0;
+    max-width: 920px;
     text-align: left;
-    padding-left: 400px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
     font-size: 58px;
@@ -37,7 +44,6 @@ h4 {
 
     h4 {
         text-align: center;
-        padding-left: 0px;
         font-size: 38px;
     }
 }
