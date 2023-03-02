@@ -53,6 +53,14 @@ footer {
     max-width: 21px;
 }
 
+@media (min-width: 1110px) {
+    .footer {
+        background-image: url(../images/Group46.png);
+        background-repeat: no-repeat;
+        background-position: right;
+    }
+}
+
 @media (max-width: 767px) {
     .contacts__headline {
         justify-content: center;
@@ -69,13 +77,5 @@ footer {
     .social-medias a {
         display: block;
         margin: auto;
-    }
-}
-
-@media (min-width: 1110px) {
-    .footer {
-        background-image: url(../images/Group46.png);
-        background-repeat: no-repeat;
-        background-position: right;
     }
 }
