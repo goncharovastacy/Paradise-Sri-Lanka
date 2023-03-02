@@ -9,7 +9,6 @@
 .island_container {
   margin: auto;
   max-width: 1230px;
-  max-height: 933px;
   background-color: #d9d9d9;
   mix-blend-mode: hard-light;
 }
@@ -37,16 +36,30 @@
   text-indent: 5%;
   color: #202020;
 }
+
 .island_img {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
   justify-content: space-around;
   padding: 0 50px 50px;
+  box-sizing: border-box;
 }
-@media screen and (max-width: 767px) {
-  .header__menu {
-    background-image: url(../images/banner.png);
-    z-index: 10;
+
+@media screen and (max-width: 686px) {
+  .island_img {
+    display: none;
+  }
+  .island_container {
+    max-height: fit-content;
+  }
+}
+
+@media screen and (max-width: 1195px) {
+  .island_img_1 {
+    display: none;
+  }
+  .island_img_most {
+    width: 65%;
   }
 }
