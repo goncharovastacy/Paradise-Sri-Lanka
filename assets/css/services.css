@@ -1,6 +1,7 @@
 .services a:hover {
   text-decoration: none;
 }
+
 .services {
   text-align: center;
   background-color: #e6eef5;
@@ -39,6 +40,7 @@
   width: 350px;
   height: 460px;
 }
+
 .service-card__hdl {
   position: absolute;
   top: 131px;
@@ -51,8 +53,8 @@
   margin: auto;
   font-family: "Roboto";
   font-weight: 400;
-  font-size: 16px;
-  line-height: 19px;
+  font-size: 18px;
+  line-height: 22px;
   color: #ffffff;
 }
 
@@ -98,6 +100,7 @@
     width: 300px;
     height: 414px;
   }
+
   .services__cards-wrapper {
     padding: 20px;
     padding-top: 0;
