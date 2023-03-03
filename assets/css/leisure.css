@@ -30,17 +30,18 @@
   padding-bottom: 30px;
   font-size: 38px;
   text-align: center;
+  line-height: 1.2;
 }
 .tour__text p {
   margin: 0;
   padding-bottom: 10px;
   font-size: 20px;
-  line-height: 23px;
+  line-height: 1.2;
 }
 .tour-5 li {
   font-family: "Roboto";
   font-size: 20px;
-  line-height: 23px;
+  line-height: 1.2;
 }
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   .tour {
@@ -49,7 +50,7 @@
 }
 @media screen and (max-width: 1023px) {
   .tour {
-    flex-wrap: wrap;
+    flex-wrap: wrap-reverse;
     padding: 20px 0;
   }
   .tour img {
@@ -65,5 +66,10 @@
   }
   .tour5 ul {
     padding: 0 0 0 20px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .tour__text h2 {
+    font-size: 30px;
   }
 }

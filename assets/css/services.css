@@ -8,7 +8,7 @@
 }
 
 .services h2 {
-  padding: 60px 0;
+  padding: 40px 0;
   margin: 0;
 }
 
@@ -54,7 +54,7 @@
   font-family: "Roboto";
   font-weight: 400;
   font-size: 18px;
-  line-height: 22px;
+  line-height: 1.2;
   color: #ffffff;
 }
 
@@ -67,7 +67,9 @@
   .services__cards-wrapper {
     padding: 20px;
   }
-
+  .services h2 {
+    padding: 20px 0 0;
+  }
   .service-card__pict {
     width: 270px;
     height: 391px;
@@ -100,7 +102,9 @@
     width: 300px;
     height: 414px;
   }
-
+  .services h2 {
+    padding: 20px 0;
+  }
   .services__cards-wrapper {
     padding: 20px;
     padding-top: 0;
