@@ -3,7 +3,7 @@
 }
 
 .about h2 {
-  padding: 40px 0;
+  padding: 50px 0;
   margin: 0;
   text-align: center;
 }
@@ -18,7 +18,7 @@
 }
 
 .about__wrapper_text {
-  margin: 0 60px;
+  margin: 20px 60px;
 }
 
 .about__wrapper_text p {
@@ -30,7 +30,7 @@
   .about__wrapper {
     display: flex;
     flex-direction: column;
-    padding-bottom: 15px;
+    padding-bottom: 0;
   }
   .about h2 {
     padding: 20px 0;
@@ -40,7 +40,7 @@
   }
 
   .about__wrapper_text {
-    margin: 10px 15px 10px 15px;
+    margin: 20px 0;
   }
 
   .about__wrapper_text p {
@@ -64,7 +64,7 @@
   }
 
   .about__wrapper_text {
-    margin: 20px 20px 0;
+    margin: 20px 0;
   }
 
   .about__wrapper_text p {

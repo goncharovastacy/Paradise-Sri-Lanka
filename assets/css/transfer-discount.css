@@ -1,7 +1,7 @@
 .transfer {
   /* width: 50%; */
   margin: auto;
-  padding: 50px 0;
+  padding-bottom: 60px;
   text-align: center;
 }
 h2,
@@ -9,7 +9,7 @@ p {
   margin: 0;
 }
 .transfer h2 {
-  padding-bottom: 40px;
+  padding: 80px 0 50px;
 }
 .transfer p {
   padding-bottom: 10px;
@@ -62,7 +62,7 @@ h4 {
     padding: 20px 15px;
   }
   .transfer h2 {
-    padding-bottom: 20px;
+    padding: 20px 0;
   }
   .discount {
     background-image: none;
