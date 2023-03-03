@@ -1,67 +1,80 @@
 .transfer {
-    /* width: 50%; */
-    margin: auto;
-    padding-top: 80px;
-    padding-bottom: 80px;
-    text-align: center;
+  /* width: 50%; */
+  margin: auto;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  text-align: center;
 }
-
+h2,
+p {
+  margin: 0;
+}
+.transfer h2 {
+  padding-bottom: 40px;
+}
+.transfer p {
+  padding-bottom: 10px;
+}
 .discount {
-    background-color: #C2AB9D;
-    background-image: url(../images/discount.svg);
-    background-repeat: no-repeat;
-    background-position: 60px;
-    padding: 10px;
+  background-color: #c2ab9d;
+  background-image: url(../images/discount.svg);
+  background-repeat: no-repeat;
+  background-position: 60px;
+  padding: 10px;
 }
 
 .discount__headline {
-    display: flex;
-    justify-content: end;
+  display: flex;
+  justify-content: end;
 }
 
 h4 {
-    margin: 0;
-    padding: 100px 0;
-    max-width: 920px;
-    text-align: left;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 600;
-    font-size: 58px;
-    line-height: 1.2;
-    color: #FFFF;
+  margin: 0;
+  padding: 100px 0;
+  max-width: 920px;
+  text-align: left;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 58px;
+  line-height: 1.2;
+  color: #ffff;
 }
 
 /* -------------TABLET----------------- */
 @media screen and (min-width: 768px) and (max-width: 1023px) {
-    .transfer {
-        padding-top: 40px;
-        padding-bottom: 40px;
-    }
+  .transfer {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
 
-    .discount {
-        background-image: none;
-    }
+  .discount {
+    background-image: none;
+  }
 
-    h4 {
-        text-align: center;
-        font-size: 38px;
-    }
+  h4 {
+    text-align: center;
+    font-size: 38px;
+  }
 }
 
 /* --------------PHONE-------------------- */
 @media screen and (max-width: 767px) {
-    .transfer {
-        padding-top: 40px;
-        padding-bottom: 40px;
-    }
-
-    .discount {
-        background-image: none;
-    }
-
-    h4 {
-        text-align: center;
-        padding-left: 0;
-        font-size: 25px;
-    }
+  .transfer {
+    padding: 20px 15px;
+  }
+  .transfer h2 {
+    padding-bottom: 20px;
+  }
+  .discount {
+    background-image: none;
+  }
+  .discount h4 {
+    padding: 50px 0;
+    max-width: 500px;
+  }
+  h4 {
+    text-align: center;
+    padding-left: 0;
+    font-size: 25px;
+  }
 }
