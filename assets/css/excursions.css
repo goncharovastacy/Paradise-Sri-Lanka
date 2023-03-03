@@ -111,7 +111,7 @@ h4 {
   margin: 0;
   padding: 91px 0;
   max-width: 920px;
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   font-style: normal;
   font-weight: 600;
   font-size: 48px;
@@ -123,7 +123,6 @@ h4 {
   .banner__container {
     margin: 0 15px;
   }
-
 }
 
 @media screen and (max-width: 1023px) {
@@ -166,9 +165,18 @@ h4 {
     padding-left: 0px;
     font-size: 25px;
   }
-
+}
+@media screen and (max-width: 1160px) {
   .request-wrapper {
-    background-image: none;
+    background-position: center;
+    padding-bottom: 300px;
+  }
+  h4 {
+    text-align: center;
+    padding-left: 0px;
+    font-size: 35px;
+    line-height: 1, 8px;
+    padding-bottom: 200px;
   }
 }
 
@@ -227,8 +235,6 @@ h4 {
     font-size: 20px;
     padding-bottom: 20px;
   }
-
-
 }
 
 @media screen and (max-width: 600px) {
@@ -244,5 +250,17 @@ h4 {
 
   .excursions__article {
     align-items: center;
+  }
+  h4 {
+    text-align: center;
+    padding-left: 0px;
+    font-size: 25px;
+    line-height: 1, 8px;
+    padding-bottom: 300px;
+  }
+
+  .request-wrapper {
+    background-position: center;
+    padding-bottom: 200px;
   }
 }

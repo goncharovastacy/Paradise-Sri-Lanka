@@ -75,9 +75,9 @@ label {
     top: 80px;
   }
   .banner h1 {
-    padding: 220px 5px 20px;
-    max-width: 400px;
-    font-size: 35px;
+    padding: 200px 5px 0;
+    font-size: 40px;
+    padding-bottom: 20px;
   }
   .banner p {
     padding-bottom: 150px;
