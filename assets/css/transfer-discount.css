@@ -1,28 +1,28 @@
 .transfer {
-    margin: auto;
-    padding: 40px 0;
-    text-align: center;
+  margin: auto;
+  padding-bottom: 60px;
+  text-align: center;
 }
 h2,
 p {
   margin: 0;
 }
 .transfer h2 {
-  padding-bottom: 40px;
+  padding: 80px 0 50px;
 }
 .transfer p {
   padding-bottom: 10px;
 }
 .discount {
-    background-color: #C2AB9D;
+  background-color: #c2ab9d;
 }
 
 .discount-wrapper {
-    max-width: 1359px;
-    margin: auto;
-    background-image: url(../images/discount.svg);
-    background-repeat: no-repeat;
-    background-position: left;
+  max-width: 1359px;
+  margin: auto;
+  background-image: url(../images/discount.svg);
+  background-repeat: no-repeat;
+  background-position: left;
 }
 
 .discount__headline {
@@ -31,61 +31,55 @@ p {
 }
 
 .discount__headline h4 {
-    margin: 0;
-    padding: 100px 0;
-    max-width: 873px;
-    text-align: left;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 600;
-    font-size: 58px;
-    line-height: 1.2;
-    color: #FFFF;
+  margin: 0;
+  padding: 100px 0;
+  max-width: 873px;
+  text-align: left;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 58px;
+  line-height: 1.2;
+  color: #ffff;
 }
 
 @media screen and (max-width: 1023px) {
-    .transfer {
-        padding-top: 40px;
-        padding-bottom: 40px;
-    }
+  .discount {
+    background-image: none;
+  }
 
+  .discount__headline h4 {
+    text-align: center;
+    font-size: 38px;
+  }
+}
+
+@media screen and (max-width: 930px) {
+  .discount__headline h4 {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .discount-wrapper {
+    background-image: url(../images/discount.svg);
+    background-repeat: no-repeat;
+    background-position-y: 30px;
+    background-position-x: center;
+    background-size: max(400px);
+  }
+  .transfer {
+    padding-bottom: 20px;
+  }
+  .transfer h2 {
+    padding: 30px 0 20px;
+  }
 
   .discount {
     background-image: none;
   }
 
-    .discount__headline h4 {
-        text-align: center;
-        font-size: 38px;
-    }
-}
-
-@media screen and (max-width: 930px) {
-    .discount__headline h4 {
-        text-align: center;
-    }
-}
-
-@media screen and (max-width: 767px) {
-    .discount-wrapper {
-        background-image: url(../images/discount.svg);
-        background-repeat: no-repeat;
-        background-position-y: 30px;
-        background-position-x: center;
-        background-size: max(400px);
-
-    }
-
-    .transfer {
-        padding-top: 40px;
-        padding-bottom: 40px;
-    }
-
-    .discount {
-        background-image: none;
-    }
-
-    .discount__headline h4 {
-        text-align: center;
-        font-size: 30px;
-    }
+  .discount__headline h4 {
+    text-align: center;
+    font-size: 30px;
+  }
 }
