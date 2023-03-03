@@ -109,3 +109,8 @@ button.button_second:active {
   box-shadow: inset 0px -7px 5px rgba(32, 32, 32, 0.4);
   color: #202020;
 }
+@media (max-width: 767px){
+  h2{
+    font-size: 30px;
+  }
+}
