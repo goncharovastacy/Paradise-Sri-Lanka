@@ -1,8 +1,8 @@
 .transfer {
-  /* width: 50%; */
-  margin: auto;
-  padding: 50px 0;
-  text-align: center;
+    margin: auto;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    text-align: center;
 }
 h2,
 p {
@@ -15,11 +15,15 @@ p {
   padding-bottom: 10px;
 }
 .discount {
-  background-color: #c2ab9d;
-  background-image: url(../images/discount.svg);
-  background-repeat: no-repeat;
-  background-position: 60px;
-  padding: 10px;
+    background-color: #C2AB9D;
+}
+
+.discount-wrapper {
+    max-width: 1359px;
+    margin: auto;
+    background-image: url(../images/discount.svg);
+    background-repeat: no-repeat;
+    background-position: left;
 }
 
 .discount__headline {
@@ -27,53 +31,62 @@ p {
   justify-content: end;
 }
 
-h4 {
-  margin: 0;
-  padding: 100px 0;
-  max-width: 920px;
-  text-align: left;
-  font-family: "Montserrat", sans-serif;
-  font-weight: 600;
-  font-size: 58px;
-  line-height: 1.2;
-  color: #ffff;
+.discount__headline h4 {
+    margin: 0;
+    padding: 100px 0;
+    max-width: 873px;
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 58px;
+    line-height: 1.2;
+    color: #FFFF;
 }
 
-/* -------------TABLET----------------- */
-@media screen and (min-width: 768px) and (max-width: 1023px) {
-  .transfer {
-    padding-top: 40px;
-    padding-bottom: 40px;
-  }
+@media screen and (max-width: 1023px) {
+    .transfer {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
 
   .discount {
     background-image: none;
   }
 
-  h4 {
-    text-align: center;
-    font-size: 38px;
-  }
+    .discount__headline h4 {
+        text-align: center;
+        font-size: 38px;
+    }
 }
 
-/* --------------PHONE-------------------- */
+@media screen and (max-width: 930px) {
+    .discount__headline h4 {
+        text-align: center;
+    }
+}
+
 @media screen and (max-width: 767px) {
-  .transfer {
-    padding: 20px 15px;
-  }
-  .transfer h2 {
-    padding-bottom: 20px;
-  }
-  .discount {
-    background-image: none;
-  }
-  .discount h4 {
-    padding: 50px 0;
-    max-width: 500px;
-  }
-  h4 {
-    text-align: center;
-    padding-left: 0;
-    font-size: 25px;
-  }
+    .discount-wrapper {
+        background-image: url(../images/discount.svg);
+        background-repeat: no-repeat;
+        background-position-y: 30px;
+        background-position-x: center;
+        background-size: max(400px);
+
+    }
+
+    .transfer {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .discount {
+        background-image: none;
+    }
+
+    .discount__headline h4 {
+        text-align: center;
+        font-size: 30px;
+    }
 }
