@@ -7,6 +7,12 @@ footer {
     margin: auto;
 }
 
+.footer {
+    background-image: url(../images/Group46.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
 .contacts {
     padding-top: 70px;
 }
@@ -53,15 +59,25 @@ footer {
     max-width: 21px;
 }
 
-@media (min-width: 1110px) {
+@media screen and (max-width: 1024px) {
     .footer {
         background-image: url(../images/Group46.png);
         background-repeat: no-repeat;
         background-position: right;
+        background-size: contain;
     }
+
 }
 
-@media (max-width: 767px) {
+@media screen and (max-width: 767px) {
+
+    .footer {
+        background-image: url(../images/Group46.png);
+        background-repeat: no-repeat;
+        background-position: right top;
+        background-size: contain;
+    }
+
     .contacts__headline {
         justify-content: center;
     }
