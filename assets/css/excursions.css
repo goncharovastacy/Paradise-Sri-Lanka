@@ -123,6 +123,12 @@ h4 {
   .banner__container {
     margin: 0 15px;
   }
+
+  .request {
+    display: flex;
+    justify-content: center;
+  }
+
 }
 
 @media screen and (max-width: 1023px) {
@@ -166,16 +172,17 @@ h4 {
     font-size: 25px;
   }
 }
+
 @media screen and (max-width: 1160px) {
   .request-wrapper {
-    background-position: center;
-    padding-bottom: 300px;
+    background-position: center bottom;
   }
+
   h4 {
     text-align: center;
     padding-left: 0px;
     font-size: 35px;
-    line-height: 1, 8px;
+    line-height: 1.8;
     padding-bottom: 200px;
   }
 }
@@ -251,16 +258,16 @@ h4 {
   .excursions__article {
     align-items: center;
   }
+
   h4 {
     text-align: center;
     padding-left: 0px;
     font-size: 25px;
-    line-height: 1, 8px;
+    line-height: 1.8;
     padding-bottom: 300px;
   }
 
   .request-wrapper {
-    background-position: center;
-    padding-bottom: 200px;
+    background-position: center bottom;
   }
 }
