@@ -57,7 +57,7 @@ p {
   font-family: 'Roboto';
   font-weight: 400;
   font-size: 20px;
-  line-height: 23px;
+  line-height: 24px;
   color: #202020;
 }
 
@@ -109,8 +109,10 @@ button.button_second:active {
   box-shadow: inset 0px -7px 5px rgba(32, 32, 32, 0.4);
   color: #202020;
 }
+
 @media (max-width: 767px){
   h2{
     font-size: 30px;
   }
 }
+

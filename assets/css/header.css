@@ -75,9 +75,14 @@ label {
   }
   .banner h1 {
     padding: 200px 5px 0;
-    font-size: 50px;
+    font-size: 25px;
+    padding-bottom: 20px;
   }
   .banner p {
     padding-bottom: 150px;
+    font-size: 15px;
   }
+  .header p{
+    font-size: 20px;
+    }
 }
