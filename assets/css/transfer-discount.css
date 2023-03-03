@@ -4,7 +4,16 @@
     padding-bottom: 80px;
     text-align: center;
 }
-
+h2,
+p {
+  margin: 0;
+}
+.transfer h2 {
+  padding-bottom: 40px;
+}
+.transfer p {
+  padding-bottom: 10px;
+}
 .discount {
     background-color: #C2AB9D;
 }
@@ -18,8 +27,8 @@
 }
 
 .discount__headline {
-    display: flex;
-    justify-content: end;
+  display: flex;
+  justify-content: end;
 }
 
 .discount__headline h4 {
@@ -40,9 +49,10 @@
         padding-bottom: 40px;
     }
 
-    .discount {
-        background-image: none;
-    }
+
+  .discount {
+    background-image: none;
+  }
 
     .discount__headline h4 {
         text-align: center;
