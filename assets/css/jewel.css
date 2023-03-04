@@ -3,9 +3,11 @@
 .banner {
   padding: 160px 0 50px;
 }
+
 .banner h1 {
   padding: 50px 0 0;
 }
+
 .jewel_container {
   margin: auto;
   max-width: 1230px;
@@ -34,33 +36,43 @@ h1.jewel {
   text-align: justify;
   text-indent: 5%;
 }
+
 .jewel_text p {
   padding-bottom: 10px;
   color: #202020;
 }
-.jewel_img_2 {
 
-   padding: 0 50px 50px;
-  }
+.jewel__images {
+  display: flex;
+  flex-shrink: 0;
+  padding: 0 50px 50px;
+}
 
- 
+.jewel__images img {
+  width: 100%;
+  overflow: hidden;
+}
 
 @media screen and (max-width: 767px) {
   .header__menu {
     background-image: url(../images/banner.png);
     z-index: 10;
   }
+
   .banner {
     padding-top: 100px;
   }
-  h1.jewel{
+
+  h1.jewel {
     font-size: 30px;
   }
+
   .jewel_text {
     padding: 20px 15px;
   }
-  .jewel_img_2 {
-    display: block;
-    max-width: 100%;
+
+  .jewel__images {
+    padding: 0 20px 15px;
   }
+
 }
