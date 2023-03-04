@@ -3,9 +3,11 @@
 .banner {
   padding: 160px 0 50px;
 }
+
 .banner h1 {
   padding: 50px 0 0;
 }
+
 .island_container {
   margin: auto;
   max-width: 1230px;
@@ -34,45 +36,67 @@ h1.island1 {
   text-align: justify;
   text-indent: 5%;
 }
+
 .island_text p {
   padding-bottom: 10px;
   color: #202020;
 }
-.island_img {
+
+.island__images {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
   justify-content: space-around;
   padding: 0 50px 50px;
 }
+
+.island__image_2 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.island_img_1 {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
 @media screen and (max-width: 1195px) {
-  .island_img {
+  .island__images {
     flex-direction: column;
     align-items: center;
     max-width: 100%;
   }
+
   .island_img_most {
     display: none;
   }
 }
+
 @media screen and (max-width: 767px) {
   .header__menu {
     background-image: url(../images/banner.png);
     z-index: 10;
   }
+
   .banner {
     padding-top: 100px;
   }
-  h1.island1{
+
+  h1.island1 {
     font-size: 30px;
   }
+
   .island_text {
     padding: 20px 15px;
   }
+
   .island_img_most {
     display: block;
     max-width: 100%;
   }
+
   .island_img_1 {
     display: none;
   }
