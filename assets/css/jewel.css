@@ -28,18 +28,18 @@ h1.jewel {
 
 .jewel__text {
   padding: 20px 50px;
+
+}
+
+.jewel__text p {
+  padding-bottom: 10px;
+  color: #202020;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
-  font-size: 16px;
   line-height: 1.2;
   text-align: justify;
   text-indent: 5%;
-}
-
-.jewel_text p {
-  padding-bottom: 10px;
-  color: #202020;
 }
 
 .jewel__images {
