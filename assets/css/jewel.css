@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Roboto&display=swap");
+
+.banner {
+  padding: 160px 0 50px;
+}
+.banner h1 {
+  padding: 50px 0 0;
+}
+.jewel_container {
+  margin: auto;
+  max-width: 1230px;
+  background-color: rgba(217, 217, 217, 0.9);
+}
+
+h1.jewel {
+  margin: 0 auto;
+  padding-top: 50px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 38px;
+  line-height: 1.2;
+  text-align: center;
+  color: #202020;
+}
+
+.jewel_text {
+  padding: 20px 50px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.2;
+  text-align: justify;
+  text-indent: 5%;
+}
+.jewel_text p {
+  padding-bottom: 10px;
+  color: #202020;
+}
+.jewel_img_2 {
+
+   padding: 0 50px 50px;
+  }
+
+ 
+
+@media screen and (max-width: 767px) {
+  .header__menu {
+    background-image: url(../images/banner.png);
+    z-index: 10;
+  }
+  .banner {
+    padding-top: 100px;
+  }
+  h1.jewel{
+    font-size: 30px;
+  }
+  .jewel_text {
+    padding: 20px 15px;
+  }
+  .jewel_img_2 {
+    display: block;
+    max-width: 100%;
+  }
+}
