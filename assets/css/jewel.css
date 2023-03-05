@@ -27,7 +27,7 @@ h1.jewel {
 }
 
 .jewel__text {
-  padding: 20px 50px;
+  padding: 20px 80px;
 }
 
 .jewel__text p {
@@ -43,13 +43,19 @@ h1.jewel {
 
 .jewel__images {
   display: flex;
-  flex-shrink: 0;
+  justify-content: center;
   padding: 0 50px 50px;
 }
 
 .jewel__images img {
-  width: 100%;
-  overflow: hidden;
+  margin-right: 3px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1195px) {
+  .jewel__images :first-child {
+    display: none;
+}
+
 }
 @media screen and (min-width: 767px) and (max-width: 1023px) {
   .banner {
@@ -74,7 +80,12 @@ h1.jewel {
     padding: 20px 15px;
   }
 
-  .jewel__images {
-    padding: 0 20px 15px;
+  .jewel__image_1 {
+    display: block;
+    max-width: 100%;
   }
+
+
+  .jewel__image_2, .jewel__image_3 {
+    display: none;
 }
