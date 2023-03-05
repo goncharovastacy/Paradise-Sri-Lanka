@@ -1,6 +1,6 @@
 .banner {
   text-align: start;
-  padding-top: 140px;
+  padding-top: 160px;
   padding-bottom: 50px;
 }
 
@@ -128,7 +128,6 @@ h4 {
     display: flex;
     justify-content: center;
   }
-
 }
 
 @media screen and (max-width: 1023px) {
@@ -142,7 +141,9 @@ h4 {
     font-weight: 400;
     font-size: 18px;
   }
-
+  .banner {
+    padding-top: 200px;
+  }
   .banner p {
     font-size: 20px;
     padding-bottom: 25px;
