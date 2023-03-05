@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Roboto&display=swap");
 
 .banner {
-  padding: 160px 0 50px;
+  padding: 160px 15px 50px;
 }
 
 .banner h1 {
@@ -28,7 +28,6 @@ h1.jewel {
 
 .jewel__text {
   padding: 20px 50px;
-
 }
 
 .jewel__text p {
@@ -52,7 +51,11 @@ h1.jewel {
   width: 100%;
   overflow: hidden;
 }
-
+@media screen and (min-width: 767px) and (max-width: 1023px) {
+  .banner {
+    padding-top: 200px;
+  }
+}
 @media screen and (max-width: 767px) {
   .header__menu {
     background-image: url(../images/banner.png);
@@ -74,5 +77,4 @@ h1.jewel {
   .jewel__images {
     padding: 0 20px 15px;
   }
-
 }
