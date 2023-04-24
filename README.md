@@ -1,9 +1,11 @@
-# Website with services in Sri Lanka
+# Рай Шри-Ланки (Paradise Sri Lanka)
 
-<!-- <p>Responsive website for </p>
-<img width="700" alt="Снимок экрана 2022-06-23 в 16 27 09" src="https://user-images.githubusercontent.com/91186108/175310168-8c5f9932-8bd8-4a81-8fdd-eb4df5248919.png">
-<img width="700" alt="Снимок экрана 2022-06-23 в 16 27 54" src="https://user-images.githubusercontent.com/91186108/175310325-1bc59b80-e5c3-49cd-ab61-af80befb4335.png">
--->
+<p></p> 
+## Result:
+<a href="https://paradise-srilanka.com/">Click here</a>
+<img src="./assets/images/readme/screen1.png" alt="screen1" width="80%">
+<img src="./assets/images/readme/screen2.png" alt="screen2" width="80%">
+<img src="./assets/images/readme/screen3.png" alt="screen3" width="80%">
   
 ## Technologies:
 <code><img height="25" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png"></code>
@@ -27,5 +29,4 @@
  </tr>
 </table>
 
-## Result:
-https://paradise-srilanka.com/
+
