@@ -1,6 +1,6 @@
 # Рай Шри-Ланки (Paradise Sri Lanka)
 
-<p>Website with services in Sri Lanka</p> 
+<p>Website with services in Sri Lanka.</p> 
 
 ## Result:
 
