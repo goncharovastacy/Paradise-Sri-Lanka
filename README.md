@@ -1,8 +1,11 @@
 # Рай Шри-Ланки (Paradise Sri Lanka)
 
 <p></p> 
+
 ## Result:
+
 <a href="https://paradise-srilanka.com/">Click here</a>
+
 <img src="./assets/images/readme/screen1.png" alt="screen1" width="80%">
 <img src="./assets/images/readme/screen2.png" alt="screen2" width="80%">
 <img src="./assets/images/readme/screen3.png" alt="screen3" width="80%">
