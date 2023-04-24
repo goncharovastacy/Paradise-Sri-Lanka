@@ -1,10 +1,10 @@
 # Рай Шри-Ланки (Paradise Sri Lanka)
 
-<p></p> 
+<p>Website with services in Sri Lanka</p> 
 
 ## Result:
 
-<a href="https://paradise-srilanka.com/">Click here</a>
+https://paradise-srilanka.com
 
 <img src="./assets/images/readme/screen1.png" alt="screen1" width="80%">
 <img src="./assets/images/readme/screen2.png" alt="screen2" width="80%">
