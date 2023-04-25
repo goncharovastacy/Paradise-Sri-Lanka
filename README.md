@@ -1,6 +1,7 @@
 # Рай Шри-Ланки (Paradise Sri Lanka)
 
-<p>Website with services in Sri Lanka.</p> 
+<p>Website with services in Sri Lanka. <br>
+The website is adapted for desktop, tablets and mobile devices.</p> 
 
 ## Result:
 
@@ -11,9 +12,10 @@ https://paradise-srilanka.com
 <img src="./assets/images/readme/screen3.png" alt="screen3" width="80%">
   
 ## Technologies:
-<code><img height="25" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png"></code>
-<code><img height="25" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png"></code>
-<code><img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png"></code>
+
+<code><img height="40" src="https://github.com/devicons/devicon/blob/master/icons/html5/html5-plain.svg"></code>
+<code><img height="40" src="https://github.com/devicons/devicon/blob/master/icons/css3/css3-original.svg"></code>
+<code><img height="40" src="https://github.com/devicons/devicon/blob/master/icons/javascript/javascript-original.svg"></code>
 
 ## Authors:
 <table>
